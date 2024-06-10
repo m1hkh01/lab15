@@ -1,0 +1,198 @@
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    display: block;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu ul li a:hover {
+    color: yellow;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 1px gray;
+    top: 100%;
+    left: 0;
+}
+
+.menu ul ul a {
+    display: block;
+    line-height: 30px;
+    color: tomato;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+
+.menu ul li:hover>ul {
+    display: block;
+    background-color: white;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.right {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    list-style: none;
+    width: 300px;
+}
+
+.left {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.right li {
+    height: 35px;
+    padding-top: 10px;
+}
+
+
+.right li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.container aside{
+    width: 78.8%;
+    position: absolute;
+    color: tomato; 
+}
+
+.container footer {
+    line-height: 50px;
+    background-color: orangered;
+    text-align: center;
+    font-variant: small-caps;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    color: white;
+}
+
+.container header {
+    background-image: url(Images/sv.jpg);
+    background-size: 100% 100%;
+    height: 20%;
+    padding-bottom: 25%;
+    position: relative;
+}
+
+aside ul li {
+    border: 1px solid tomato;
+    box-shadow: 0 1px 2px black;
+    padding: 3px 50px;
+}
+
+aside ul li a {
+    color: orangered;
+}
+
+aside {
+    height: 500px;
+}
+
+.menu>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu>ul>li>a {
+    display: block;
+}
+
+.menu>ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu>ul>li>a:hover {
+    color: yellow;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 1px gray;
+}
+
+.menu ul ul a {
+    display: block;
+    line-height: 30px;
+    color: tomato;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+
+.menu>ul>li:hover>ul {
+    display: block;
+    background-color: white;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
